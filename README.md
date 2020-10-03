@@ -3,14 +3,17 @@ Leslie's (More Compact) Portfolio Project
 
 ## To Get Started:
 
-1. `git init` for a clean history
-2. `npm install` to download dependancies
-3. In the terminal, enter `gulp` to make everything run.
-4. Take note of the Access URLs provided in your terminal. Your web page should pop up at `http://localhost:3000`. You can access this same page on your various devices in the same wifi network with the provided External URL. You can share the External URL with coworkers and they'll see whats on your screen.
+1. Install node and make sure npm (Node Package Manager) is also installed
+2. Clone this repo with git clone https://github.com/galloanna/here-ya-go-leslie <your-project-name> to build this repo into your own project or download the zip
+3. In terminal, cd (change directory) to the folder containing your project.
+4. `git init` for a clean history
+5. `npm install` to download dependancies
+6. In the terminal, enter `gulp` to make everything run.
+7. Take note of the Access URLs provided in your terminal. Your web page should pop up at `http://localhost:3000`. You can access this same page on your various devices in the same wifi network with the provided External URL. You can share the External URL with coworkers and they'll see whats on your screen.
 NOTE: If you see missing images the first time you build the project or when you add new images, `imagemin` is likely still running. Wait a few seconds and either refresh the page or re-save the HTML file you're working on.
-5. Edit your Sass code inside of the scss folder. You can make subfolders inside of that to better organize your code. Prefix your sass files with an underscore. More info on using @import to organize your files [here](http://sass-guidelin.es/#main-file)
-6. Your minified files will be automagically created and updated in `dist/`. It will create your optimized css, html, and javascript files for you. Never edit files within the `dist/` folder. (Dist stands for Distribution)
-7. Keep gulp running while you're making changes. When you want to close out of the gulp task, in the terminal, hit `ctrl + C`
+8. Edit your Sass code inside of the scss folder. You can make subfolders inside of that to better organize your code. Prefix your sass files with an underscore. More info on using @import to organize your files [here](http://sass-guidelin.es/#main-file)
+9. Your minified files will be automagically created and updated in `dist/`. It will create your optimized css, html, and javascript files for you. Never edit files within the `dist/` folder. (Dist stands for Distribution)
+10. Keep gulp running while you're making changes. When you want to close out of the gulp task, in the terminal, hit `ctrl + C`
 
 ## Deploying to gh-pages
 
